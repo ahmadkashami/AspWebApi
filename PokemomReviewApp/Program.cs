@@ -25,6 +25,10 @@ builder.Services.AddDbContext<DataContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<DataContext>(options =>
+    options.UseSqlite(connectionString));
+
 var app = builder.Build();
 if (args.Length == 1 && args[0].ToLower() == "seeddata")
     SeedData(app);

@@ -1,30 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "G:\\ASPNetCore\\PokemomReviewApp\\PokemomReviewApp\\PokemomReviewApp.csproj": {}
+    "/Users/ahmadalkashami/Desktop/Projects/AspWebApi/PokemomReviewApp/PokemomReviewApp.csproj": {}
   },
   "projects": {
-    "G:\\ASPNetCore\\PokemomReviewApp\\PokemomReviewApp\\PokemomReviewApp.csproj": {
+    "/Users/ahmadalkashami/Desktop/Projects/AspWebApi/PokemomReviewApp/PokemomReviewApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\ASPNetCore\\PokemomReviewApp\\PokemomReviewApp\\PokemomReviewApp.csproj",
+        "projectUniqueName": "/Users/ahmadalkashami/Desktop/Projects/AspWebApi/PokemomReviewApp/PokemomReviewApp.csproj",
         "projectName": "PokemomReviewApp",
-        "projectPath": "G:\\ASPNetCore\\PokemomReviewApp\\PokemomReviewApp\\PokemomReviewApp.csproj",
-        "packagesPath": "C:\\Users\\Ahmad\\.nuget\\packages\\",
-        "outputPath": "G:\\ASPNetCore\\PokemomReviewApp\\PokemomReviewApp\\obj\\",
+        "projectPath": "/Users/ahmadalkashami/Desktop/Projects/AspWebApi/PokemomReviewApp/PokemomReviewApp.csproj",
+        "packagesPath": "/Users/ahmadalkashami/.nuget/packages/",
+        "outputPath": "/Users/ahmadalkashami/Desktop/Projects/AspWebApi/PokemomReviewApp/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/ahmadalkashami/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,6 +57,10 @@
               "target": "Package",
               "version": "[7.0.11, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -87,6 +87,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.21, 6.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[6.0.21, 6.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.21, 6.0.21]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -95,7 +109,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }
