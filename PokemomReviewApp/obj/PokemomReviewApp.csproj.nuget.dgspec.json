@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\ASPNetCore\\PokemomReviewApp\\PokemomReviewApp\\PokemomReviewApp.csproj": {}
+    "D:\\ASPNetCore\\PokemomReviewApp\\PokemomReviewApp\\PokemomReviewApp.csproj": {}
   },
   "projects": {
-    "G:\\ASPNetCore\\PokemomReviewApp\\PokemomReviewApp\\PokemomReviewApp.csproj": {
+    "D:\\ASPNetCore\\PokemomReviewApp\\PokemomReviewApp\\PokemomReviewApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\ASPNetCore\\PokemomReviewApp\\PokemomReviewApp\\PokemomReviewApp.csproj",
+        "projectUniqueName": "D:\\ASPNetCore\\PokemomReviewApp\\PokemomReviewApp\\PokemomReviewApp.csproj",
         "projectName": "PokemomReviewApp",
-        "projectPath": "G:\\ASPNetCore\\PokemomReviewApp\\PokemomReviewApp\\PokemomReviewApp.csproj",
+        "projectPath": "D:\\ASPNetCore\\PokemomReviewApp\\PokemomReviewApp\\PokemomReviewApp.csproj",
         "packagesPath": "C:\\Users\\Ahmad\\.nuget\\packages\\",
-        "outputPath": "G:\\ASPNetCore\\PokemomReviewApp\\PokemomReviewApp\\obj\\",
+        "outputPath": "D:\\ASPNetCore\\PokemomReviewApp\\PokemomReviewApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -60,6 +60,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
